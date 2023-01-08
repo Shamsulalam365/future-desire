@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+/* Banner styles */
+.banner{
+    background-image: url(../images/banner/banner2.png);
+    position: absolute;
+    height: 800px;
+}
+
+.banner-item {
+   
+    text-align: right;
+   
+}
+
+.banner-title {
+    font-style: normal;
+    color: #151414;
+    font-weight: 900;
+    font-size: 45px;
+    margin: 200px 230px 25px 850px;
+}
+
+.banner-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px 230px 25px 950px;
+       
+}
+.contact-btn{
+    font-family: 'work Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-right: 230px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-style: normal;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 35px;
+    
+}
