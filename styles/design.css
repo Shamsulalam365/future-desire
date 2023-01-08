@@ -1,20 +1,22 @@
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-    
+
 }
 
 /* Banner styles */
-.banner{
+.banner {
     background-image: url(../images/banner/banner2.png);
+    background-image: no-repeat;
     position: absolute;
-    height: 800px;
+    max-height: 800px;
+    margin-bottom: 200px;
 }
 
 .banner-item {
-   
+
     text-align: right;
-   
+
 }
 
 .banner-title {
@@ -30,14 +32,16 @@
     font-weight: 400;
     font-size: 16px;
     margin: 0px 230px 25px 950px;
-       
+
 }
-.contact-btn{
+
+.contact-btn {
     font-family: 'work Sans';
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
     margin-right: 230px;
+    margin-bottom: 170px;
     height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
@@ -45,5 +49,87 @@
     border: 0;
     border-radius: 5px;
     padding: 18px 35px;
-    
+
+}
+
+/* section failure styles */
+.section-failure {
+
+    padding-top: 800px;
+    display: flex;
+    gap: 70px;
+    margin-left: 200px;
+
+}
+
+.failure-content {
+    text-align: left;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+}
+
+.failure-title {
+    color: #151414;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓ ';
+    color: orange;
+}
+
+.failure-description-points {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* section plans */
+.plans {
+    margin: 100px 200px 150px 150px;
+}
+
+.plan-section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.plan-description{
+    color: #737272;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+     margin-top: 10px;
+}
+.plan-item{
+    text-align: center;
 }
