@@ -175,7 +175,79 @@ ul li:before {
     width: 1100px;
     background-repeat: no-repeat;
     margin-left: 200px;
+    margin-bottom: 100px;
 
 
     border-radius: 8px;
+}
+
+/* footer styles */
+.footer-container{
+    display: flex;
+    gap: 50px;
+    padding-top: 100px;
+     background: #151414; 
+     text-align: left;
+}
+.footer-title{
+    color: #F8F8F8;
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 24px;
+}
+.address{
+    text-align: left;
+    margin-left: 250px;
+}
+.footer-description{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 16px;
+padding-right: 400px;
+margin-bottom: 24px;
+
+}
+.info{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 10px;
+}
+.icons ul li {
+    list-style: none;
+}
+
+.subscriber{
+   margin-right: 150px;
+}
+.subscribe-title{
+    color: #FFFFFF;
+    font-weight: 600;
+font-size: 25px;
+margin-bottom: 15px;
+}
+.icons{
+    display: flex;
+    text-align: left;
+}
+.subscribe-btn{
+    font-family: 'work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    margin-right: 230px;
+    margin-bottom: 170px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    border: 0;
+
+    padding: 18px 35px;
+}
+.input-item{
+    padding: 18px 35px;
+    height: 20px;
+    border-radius: 5px;
+    border: 0;
 }
